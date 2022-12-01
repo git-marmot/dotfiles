@@ -12,13 +12,13 @@ set $ws10 " 10    "
 exec firefox
 exec discord
 exec youtube-music
-exec alacritty -e bash -c  'python $HOME/python/job_scraper/main.py;bash'
+exec alacritty -e bash -c  'python /home/drunkenmarmot/python/job_scraper/main.py;bash'
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec_always picom 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id feh --bg-scale $HOME/pictures/bsp.jpg
-exec_always --no-startup-id bash $HOME/.config/i3/scripts/xinput.sh
-exec_always --no-startup-id bash $HOME/.config/i3/scripts/imwheel-script.sh
+exec_always --no-startup-id feh --bg-scale /home/drunkenmarmot/pictures/778d45ca8e14153d1d54433d8948fa4e.jpg
+exec_always --no-startup-id bash /home/drunkenmarmot/.config/i3/scripts/xinput.sh
+exec_always --no-startup-id bash /home/drunkenmarmot/.config/i3/scripts/imwheel-script.sh
 
 font pango:System San Francisco Display 10
 
