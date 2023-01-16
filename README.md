@@ -1,4 +1,4 @@
-![example config](example_coonfig.png)
+![example config](example_config.png)
 | type          |                              |
 | ------------- | ---------------------------- |
 | bootloader    | grub                         |
