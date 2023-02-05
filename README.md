@@ -7,5 +7,6 @@
 | dm            | fairyglade / ly              |
 | wm            | i3-gaps-with-rounded-corners |
 | te            | alacritty                    |
-| hotbar        | polybar                      |
+| status bar    | polybar                      |
+| dynamic menu  | dmenu                        |        
 | compositor    | picom                        |
