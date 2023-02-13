@@ -75,7 +75,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 bindsym $mod+d exec dmenu_run -b
 bindsym $mod+Return exec alacritty
-bindsym $mod+shift+x exec i3lock --color "$bg-color"
+bindsym $mod+shift+x exec /home/USER/.config/i3/scripts/blur-lock
 bindsym $mod+F1 exec firefox
 bindsym --release Print exec scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/pictures/screenshots && mv $f ~/pictures/screenshots && xclip -selection clipboard -t image/png -i ~/pictures/screenshots/`ls -1 -t ~/pictures/screenshots | head -1`'
 bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/pictures/screenshots && mv $f ~/pictures/screenshots && xclip -selection clipboard -t image/png -i ~/pictures/screenshots/`ls -1 -t ~/pictures/screenshots | head -1`'
