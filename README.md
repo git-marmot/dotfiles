@@ -8,5 +8,5 @@
 | wm            | i3-gaps-with-rounded-corners |
 | te            | alacritty                    |
 | status bar    | polybar                      |
-| dynamic menu  | dmenu                        |        
+| dm            | dmenu                        |        
 | compositor    | picom                        |
