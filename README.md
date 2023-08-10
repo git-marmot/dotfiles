@@ -28,7 +28,7 @@ __Versions__
     - © 2020 Free Software Foundation, Inc.
 
 ## i3wm
-Contains the config and scripts
+Contains the [config](i3wm/config) and scripts
 
 ### [i3lock](i3wm/scripts/i3lock.sh)
 Takes a screenshot, blurrs it and uses it as the i3lock
@@ -38,7 +38,7 @@ Adjusts the mouse scrolling speed
 Enables the mousepad while typing, useful for gaming w/o mouse
 
 ## polybar
-Contains the config, launch file and scripts
+Contains the [config](polybar/config.ini), [launch file](polybar/launch.sh) and scripts
 
 ### [bluetooth](polybar/scripts/bluetooth.sh)
 Returns a glyph for the corresponding sink (system audio/ bluetooth) and the audio volume percentage
@@ -50,7 +50,7 @@ Returns a glyph for the corresponding playerctl status (no player/ paused/ playi
 Returns the vpn status glyph with the internet connection speed (ping in ms)
 
 ## picom
-Contains the config
+Contains the [config](picom/picom.conf)
 
 ## bash
 Contains the [.bash_aliases](bash/.bash_aliases) and [.bashrc](bash/.bashrc) files
