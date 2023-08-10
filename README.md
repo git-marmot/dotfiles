@@ -43,7 +43,7 @@ Contains the config, launch file and scripts
 ### [bluetooth](polybar/scripts/bluetooth.sh)
 Returns a glyph for the corresponding sink (system audio/ bluetooth) and the audio volume percentage
 ### [mullvad](polybar/scripts/mullvad.sh)
-Returns a glyph for the connection status (mullvad vpn/ no vpn)
+Returns a glyph for the connection status (vpn connection yes/no)
 ### [player_icon](polybar/scripts/player_icon.sh)
 Returns a glyph for the corresponding playerctl status (no player/ paused/ playing)
 ### [wifi](polybar/scripts/wifi.sh)
