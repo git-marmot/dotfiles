@@ -14,7 +14,7 @@ alias shutdown='shutdown -h now'
 
 scan_local() {
 	local_ip=$(ip addr show wlan0 | grep "inet " | awk '{print $2}' | awk -F '/' '{print $1}')
-	sudo nmap -sL "$local_ip/24" | grep \(1
+	sudo nmap -sn "$local_ip/24" | grep \(1
 }
 
 scan_file_size() {
