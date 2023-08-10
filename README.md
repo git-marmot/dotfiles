@@ -35,7 +35,7 @@ Takes a screenshot, blurrs it and uses it as the i3lock
 ### [imwheel-script](i3wm/scripts/imwheel-script.sh)
 Adjusts the mouse scrolling speed
 ### [xinput](i3wm/scripts/xinput.sh)
-Enables the mousepad while typing. Useful for gaming w/o mouse
+Enables the mousepad while typing, useful for gaming w/o mouse
 
 ## polybar
 Contains the config, launch file and scripts
